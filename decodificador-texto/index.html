@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="shortcut icon" href="assets/logo-alura.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="esquerda">
+            <div class="cabecalho">
+                <img src="assets/logo-alura.svg" alt="Logo da Alura">
+            </div>
+            <form>
+                <textarea class="digite-texto" id="input" placeholder="Digite seu texto"></textarea>
+                <div class="alerta">
+                    <img src="assets/aviso.svg" alt="Símbolo de exclamação">
+                    <span>Apenas letras minúsculas e sem acento.</span>
+                    <div class="botoes">
+                        <button class="botao-cripto" type="button">Criptografar</button>
+                        <button class="botao-descripto" type="button">Descriptografar</button>
+                    </div>
+                </div>
+                <div id="erro"></div>
+            </form>
+        </div>
+        <div class="direita">
+            <div class="container-direita">
+                <img class="direita-imagem" id="imagem" src="assets/imagem.svg" alt="Imagem ilustrativa de um personagem com uma lupa na mão olhando para um diamante">
+                <h3 class="direita-titulo" id="nenhuma-mensagem">Nenhuma mensagem encontrada</h3>
+                <p class="direita-paragrafo" id="paragrafo">Digite um texto que você deseja criptografar ou descriptografar</p>
+                <div class="texto-criptografado" style="display: none;">
+                    <p class="txt-cripto"></p>
+                </div>
+                    <div class="botao-copiar" id="copiar" style="display: none;">
+                        <input class="btn-copiar" type="submit" value="copiar" id="btn-copiar">
+                        </div>
+            </div>
+        </div>
+    </div>
+    <footer class="rodape"> Desenvolvido por Beatriz Rouças | 2024</footer>
+    <script src="script.js"></script>
+</body>
+
+</html> 
