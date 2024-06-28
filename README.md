@@ -37,3 +37,6 @@ As "chaves" de criptografia utilizadas são:<br>
 - HTML5
 - CSS
 - JavaScript
+
+<h2 id="badge">💻 Badge</h2>
+<img src=https://github.com/beatrizcroucas/challenge-decodificador/assets/140282184/c3ec1687-60ff-4ae7-b457-48d09496f426 alt="Badge pela finalização do desafio">
